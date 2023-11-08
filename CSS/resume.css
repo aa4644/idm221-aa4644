@@ -29,3 +29,8 @@ div.marigin {
     font-weight: 900;
   }
 
+.buttonup {
+    float: right;
+    padding-right: 50px;
+    top: 20px
+}
