@@ -5,9 +5,9 @@
     text-align: left;
     font-size: 16px;
     font-weight: 900;
-    padding: 10px; /* Adjust padding as needed */
-    box-sizing: border-box; /* Include padding in the total width and height */
+    padding: 10px; 
+    box-sizing: border-box; 
     position: absolute;
-    bottom: 100; /* You may adjust the bottom position as needed */
-    left: 0; /* Align to the left */
+    bottom: 100; 
+    left: 0; 
   }
