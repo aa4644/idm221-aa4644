@@ -27,6 +27,7 @@ div.marigin {
     padding-left: 7px;
     padding-right: 4px;
     padding-top: 5px;
+    line-height: 20px;
     
 }
 
@@ -38,6 +39,9 @@ ul {
     margin-top: -10px;
 }
 
+li {
+    margin-bottom: 5px;
+}
 
 
 
