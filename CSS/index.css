@@ -11,18 +11,25 @@ div.marigin {
 .intro {
     padding-top: 4px;
     padding-bottom: 0px;
-    padding-left: 20px;
+    padding-left: 38px;
     padding-right: 20px;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
+}
+
+h2 {
+    padding-left: 5px;
+    font-size: 24px;
 }
 
 .rowhouse {
-    width: 310px;
+    width: 340px;
     height: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -10px;
+    padding-bottom: 10px;
 }
 
 .diner {
@@ -31,6 +38,8 @@ div.marigin {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -10px;
+    padding-bottom: 10px;
 }
     
 .portfolio {
@@ -39,6 +48,7 @@ div.marigin {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 15px;
+    margin-top: -10px;
+    padding-bottom: 20px;
 }
 
