@@ -1,13 +1,22 @@
+
 .footer {
     width: 100%;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(83, 82, 82);
     color: rgb(0, 0, 0);
-    text-align: left;
     font-size: 16px;
     font-weight: 900;
-    padding: 10px; 
-    box-sizing: border-box; 
-    position: absolute;
-    bottom: 100; 
-    left: 0; 
+    display: flex;
+  
   }
+.text {
+  float:left;
+  width: 50%;
+  padding-left: 10px;
+}
+.test {
+  text-align: right;
+  width: 50%;
+  padding-right: 10px;
+  padding-top: 14px;
+}
+/* margin: 0 auto <-- this will make things center and calculator the difference on each side for it to be centered */

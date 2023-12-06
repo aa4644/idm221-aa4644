@@ -16,7 +16,27 @@ div.marigin {
     font-size: 32px;
 }
 
+.rowhouse {
+    width: 310px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
+.diner {
+    width: 310px;
+    height: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     
+.portfolio {
+    width: 310px;
+    height: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
