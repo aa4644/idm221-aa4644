@@ -6,14 +6,6 @@
     margin-right: auto;
 }
 
-.thinking2 {
-    width: 310px;
-    height: 310px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .floor {
     width: 310px;
     height: 310px;
@@ -21,6 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
+    
 }
 .rowmodel {
     width: 340px;
