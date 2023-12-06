@@ -1,6 +1,5 @@
 
 .footer {
-    width: 100%;
     background-color: rgb(145, 145, 145);
     color: rgb(0, 0, 0);
     font-size: 16px;
@@ -8,8 +7,9 @@
     display: flex;
     width: 390px; /*make this the proper way*/
     margin: 0;
-    margin-left: -10px;
+    margin-left: -18px;
     margin-bottom: -10px;
+    
   }
 
 
@@ -24,4 +24,4 @@
   padding-right: 10px;
   padding-top: 14px;
 }
-/* margin: 0 auto <-- this will make things center and calculator the difference on each side for it to be centered */
+/* margin: 0 auto <-- could be useful */
