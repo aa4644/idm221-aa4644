@@ -1,3 +1,7 @@
+body {
+    background: radial-gradient(circle at left bottom, #ffffff , #cce3ff)
+}
+
 .header {
     line-height: 2; /*fix this; there's no signifer to the number*/
     padding-left: 7px;
