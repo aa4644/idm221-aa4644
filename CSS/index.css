@@ -1,9 +1,9 @@
 .header {
-    line-height:2;
+    line-height: 2; /*fix this; there's no signifer to the number*/
     padding-left: 7px;
 }
 
-div.marigin {
+div.logo {
     margin-left: 10px;
     margin-right: 10px;
 }
