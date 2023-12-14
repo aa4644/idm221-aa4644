@@ -7,8 +7,8 @@
 }
 
 .mobilewireframe {
-    width: 310px;
-    height: 310px;
+    width: 370px;
+    height: 784px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,8 +16,17 @@
     
 }
 .rowmodel {
-    width: 340px;
-    height: 320px;
+    width: 370px;
+    height: 803px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.desktop {
+    width: 370px;
+    height: 195px;
     display: block;
     margin-left: auto;
     margin-right: auto;
