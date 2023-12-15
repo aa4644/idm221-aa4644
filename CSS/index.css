@@ -27,6 +27,11 @@ body {
     src: url('../fonts/Raleway-SemiBold.ttf');
 }
 
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
 .header {
     padding-left: 7px;
     font-family: 'InterBold';
@@ -75,8 +80,4 @@ h2 {
     padding-bottom: 30px;
 }
 
-.aboutme-info {
-    font-size: 16px;
-    line-height: 30px;
-    padding-left: 9px;
-}
+

@@ -6,120 +6,118 @@
     <title>Resume</title>
     <script src="javascript/nav.js"></script>
     <link href = "css/nav.css"rel = "stylesheet">
+    <link href = "css/footer.css" rel = "stylesheet">
     <link href = "css/resume.css"rel = "stylesheet">
-    <link href = "css/footer.css"rel = "stylesheet">
+    <link href = "css/index.css"rel = "stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" rel="stylesheet">
     
+    <div class="logo">
+      <h1><a class = "header" href="index.html">Amy Au</a></h1>
+    </div>
+  
+  
+    <!--menu bar-->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Homepage</a>
+        <a href="resume.html">Resume</a>
+        <a href="aboutme.html">About Me</a>
+        <!-- might not include <a href="contact.html">Contact</a> -->
+      </div>
+    </div>
+  
+  <!--closing menu bar-->
+    <div class ="fixed">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+  </head>
 
-</head>
 <body>
+  <p style="text-align: center; font-size: 24px; font-family: 'RalewaySemiBold';"><b>Amy Au</b></h2>
+  <p style="text-align: center; font-size: 17px; font-family: 'RalewayLight'; margin-top: -18px">Philadelphia, PA<br>(215) 934-8298<br>aa4644@drexel.edu</p>
+  <!--consider fixing the BR -->
 
-  <div class="logo">
-    <h1><a class = "header" href="index.html">Amy Au</a></h1>
+  <!--start of resume-->
+  <div class="para">
+    <h3>EDUCATION</h3>
+    <p style="margin-bottom: -12px;"><b>Drexel University, Philadelphia PA</b></p>
+    <p>Bachelor of Science in User Experience and Interaction Design; Minor in Architecture</p>
+    <p style="margin-top: -15px;">Graduation: June 2028</p>
   </div>
 
-<div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="index.html">Homepage</a>
-      <a href="resume.html">Resume</a>
-      <a href="aboutme.html">About Me</a>
-      <!-- might not include <a href="contact.html">Contact</a> -->
+  <div class="para">
+    <h3>SKILLS</h3>
+    <p>HTML / CSS | JavaScript | Wireframing | User Research | Web Design | Drafting | Model Making | Architectural Rendering</p>
+  </div>
+
+  <div class="para">
+    <h3>TOOLS</h3>
+    <p>Microsoft Office | Adobe Creative Cloud: Photoshop and Illustrator | Rhino 7 | AutoCAD | Figma | GitHub | VSCode</p>
+  </div>
+
+  <div class="para">
+    <h3>PROJECT EXPERIENCE</h3>
+    <p><b>UX/UI Designer, Ram’s Diner Website Redesign</b></p>
+    <p style="margin-top: -12px;">Sept 2023 – Present</p>
+      <ul>
+        <li>Created user personas based on user research to identify problem areas and user preferences</li>
+        <li>Designed variety of low-fidelity wireframes, color palettes, and typography using Figma for visualization</li>
+        <li>Analyzed feedback and curated an enhanced interface interaction for the target audience while keeping the brand’s integrity</li>
+      </ul>
+  </div>
+
+  <div class="para">
+    <p><b>UX/UI Designer, Portfolio Website Design</b></p>
+    <p style="margin-top: -12px;">Sept 2023 – Present</p>
+      <ul>
+        <li>Generated sitemaps, visual palettes, and wireframes for better understanding of usability </li>
+        <li>Created a visually appealing and user-friendly interface with navigation and accessibility in mind</li>
+        <li>Implemented an interactive element such as a contact form to engage audience and showcase design abilities </li>
+      </ul>
+  </div>
+
+  <div class="para">
+    <p><b>Architect Designer, Lancaster Avenue Row House Design</b></p>
+    <p style="margin-top: -12px;">Jan 2023 – March 2023</p>
+      <ul>
+        <li>Curated new designs of an integrated restaurant and apartment building</li>
+        <li>Designed 3-level floor plans in an efficient manner that followed its restrictions and rules</li>
+        <li>Built various physical models to allow viewers a more comfortable visual method </li>
+      </ul>
+  </div>
+
+  <div class="para">
+    <h3>WORK EXPERIENCE</h3>
+    <p><b>Front-end Employee, Giant</b></p>
+    <p style="margin-top: -12px;">June 2023 – Present</p>
+      <ul>
+        <li>Maintained a safe and clean work environment to guarantee customer needs</li>
+        <li>Supervised trainees and aided in their understanding of company policies while working as a team member</li>
+        <li style="padding-bottom: 50px;">Processed cash and credit transactions in a fast-paced, high-volume retail setting</li>
+      </ul>
+  </div>
+  <!--End of Resume-->
+
+
+  <!--download PDF button-->
+  <div class="container">
+    <button class="pdf"><a href="images\amyau-resume2023.pdf" target="_blank">Download</a></button>
+  </div>
+
+
+  <!--footer-->
+  <div class="footer">
+    <div class="text">
+      <p style="font-size: 20px; font-family: 'RalewaySemiBold';">Let's Connect!</p>
+    </div>
+    <div class="test">
+          <a target="_blank" href="https://www.linkedin.com/in/amy-au22/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a target="_blank" href="mailto:aa4644@drexel.edu"><i class="fa fa-envelope"></i></a>
+          <button onclick ="toTop()"><i class="fas fa-arrow-up"></i> </button>
     </div>
   </div>
-  
-<h2 style="text-align: center;"><b>Amy Au</b></h2>
-<p style="text-align: center;margin-top: -18px">Philadelphia, PA<br>(215) 934-8298<br>aa4644@drexel.edu</p>
-
-<!--start of resume-->
-<div class="para">
-  <h3>EDUCATION</h3>
-  <p style="margin-bottom: -12px;"><b>Drexel University, Philadelphia PA</b></p>
-  <p>Bachelor of Science in User Experience and Interaction Design; Minor in Architecture
-    Anticipated Graduation: June 2028</p>
-</div>
-
-<div class="para">
-  <h3>SKILLS</h3>
-  <p>HTML / CSS | JavaScript | Wireframing | User Research | Web Design | Drafting | Model Making | Architectural Rendering </p>
-</div>
-
-<div class="para">
-  <h3>TOOLS</h3>
-  <p>Microsoft Office | Adobe Creative Cloud: Photoshop and Illustrator | Rhino 7 | AutoCAD | Figma | GitHub | VSCode </p>
-</div>
-
-<div class="para">
-  <h3>PROJECT EXPERIENCE</h3>
-  <p><b>UX/UI Designer, Ram’s Diner Website Redesign</b>
-    <br>Sept 2023 – Present</p>
-    <ul>
-      <li>Created user personas based on user research to identify problem areas and user preferences</li>
-      <li>Designed variety of low-fidelity wireframes, color palettes, and typography using Figma for visualization</li>
-      <li>Analyzed feedback and curated an enhanced interface interaction for the target audience while keeping the brand’s integrity</li>
-    </ul>
-</div>
-
-<div class="para">
-  <p><b>UX/UI Designer, Portfolio Website Design</b>
-    <br>Sept 2023 – Present
-    </p>
-    <ul>
-      <li>Generated sitemaps, visual palettes, and wireframes for better understanding of usability </li>
-      <li>Created a visually appealing and user-friendly interface with navigation and accessibility in mind</li>
-      <li>Implemented an interactive element such as a contact form to engage audience and showcase design abilities </li>
-    </ul>
-</div>
-
-<div class="para">
-  <p><b>Architect Designer, Lancaster Avenue Row House Design</b>
-    <br>Jan 2023 – March 2023
-    </p>
-    <ul>
-      <li>Curated new designs of an integrated restaurant and apartment building</li>
-      <li>Designed 3-level floor plans in an efficient manner that followed its restrictions and rules</li>
-      <li>Built various physical models to allow viewers a more comfortable visual method </li>
-    </ul>
-</div>
-
-<div class="para">
-  <h3>WORK EXPERIENCE</h3>
-  <p><b>Front-end Employee, Giant</b>
-    <br>June 2023 – Present 
-    </p>
-    <ul>
-      <li>Maintained a safe and clean work environment to guarantee customer needs</li>
-      <li>Supervised trainees and aided in their understanding of company policies while working as a team member</li>
-      <li style="padding-bottom: 50px;">Processed cash and credit transactions in a fast-paced, high-volume retail setting</li>
-    </ul>
-</div>
-<!--End of Resume-->
-
-<div class="container">
-  <button class="pdf"><a href="images\amyau-resume2023.pdf" target="_blank">Download</a></button>
-</div>
-
-
-<!--footer-->
-<div class="footer">
-  <div class="text">
-    <p>Let's Connect!</p>
-  </div>
-  <div class="test">
-        <a target="_blank" href="https://www.linkedin.com/in/amy-au-7b0b9426a"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a target="_blank" href="mailto:aa4644@drexel.edu"><i class="fa fa-envelope"></i></a>
-        <button onclick ="toTop()"><i class="fas fa-arrow-up"></i> </button>
-  </div>
-</div>
-
-
-
-
-  <div class ="fixed">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-  </div>
-</div>
 
 
 </body>

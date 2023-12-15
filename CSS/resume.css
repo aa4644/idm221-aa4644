@@ -1,31 +1,6 @@
-.header {
-    line-height:2;
-    padding-left: 5px;
-}
-
-div.logo {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.intro {
-    padding-top: 4px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.buttonup {
-    float: right;
-    padding-right: 10px;
-    
-}
-
 .para {
-    padding-left: 7px;
-    padding-right: 4px;
+    padding-left: 26px;
+    padding-right: 26px;
     padding-top: 5px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -33,11 +8,20 @@ div.logo {
 }
 
 h3 {
+    font-size: 18px;
+    font-family: 'RalewayBold';
     margin-bottom: -10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'InterLight';
 }
 
 ul {
     margin-top: -10px;
+    font-size: 16px;
+    font-family: 'InterLight';
 }
 
 li {
@@ -60,5 +44,3 @@ li {
     margin-bottom: 20px;
     text-align: center;
 }
-
-
