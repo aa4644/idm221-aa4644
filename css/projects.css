@@ -1,3 +1,4 @@
+/*rowhouse process photos*/
 .thinking1 {
     width: 310px;
     height: 310px;
@@ -7,6 +8,7 @@
     margin-right: auto;
 }
 
+/*floor plan photo*/
 .floor {
     width: 310px;
     height: 310px;
@@ -16,6 +18,7 @@
     margin-right: auto;
 }
 
+/*rowhouse model photo*/
 .rowmodel {
     width: 340px;
     height: 320px;
@@ -25,22 +28,25 @@
     padding-bottom: 40px;
 }
 
+/*headings*/
 h3 {
     padding-left: 30px;
     margin-bottom: -10px;
     font-size: 20px;
-    font-family: 'RalewaySemiBold';
+    font-family: 'RalewaySemiBold', sans-serif;
 }
 
+/*body paragraphs*/
 p {
     padding-left: 30px;
     padding-right: 30px;
     line-height: 20px;
     letter-spacing: 1px;
     font-size: 16px;
-    font-family: 'InterRegular';
+    font-family: 'InterRegular', sans-serif;
 }
 
+/*user persona image*/
 .persona {
     width: 370px;
     height: 277px;
@@ -50,6 +56,7 @@ p {
     margin-right: auto;
 }
 
+/*mobile wireframe image*/
 .mobilewireframe {
     width: 370px;
     height: 784px;
@@ -59,6 +66,7 @@ p {
     margin-right: auto;
 }
 
+/*mobile final product image*/
 .mobile {
     width: 370px;
     height: 803px;
@@ -68,6 +76,7 @@ p {
     padding-bottom: 15px;
 }
 
+/*desktop final product image*/
 .desktop {
     width: 370px;
     height: 195px;

@@ -1,8 +1,8 @@
 body {
-    font-family: 'RalewaySemiBold';
-  }
+    font-family: 'RalewaySemiBold', sans-serif;
+}
 
-  .overlay {
+.overlay {
     height: 0%;
     width: 100%;
     position: fixed;
@@ -15,7 +15,7 @@ body {
     background-blend-mode: lighten;
     overflow-y: hidden;
     transition: 0.5s;
-  }
+}
   
   .overlay-content {
     position: relative;
