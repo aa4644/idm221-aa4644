@@ -28,18 +28,17 @@ body {
 }
 
 .header {
-    line-height: 2; /*fix this; there's no signifer to the number*/
     padding-left: 7px;
     font-family: 'InterBold';
-    
 }
 
 div.logo {
+    padding-top: 11px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.intro {
+.index-intro {
     padding-top: 4px;
     padding-bottom: 0px;
     font-weight: 600;
@@ -53,6 +52,7 @@ h2 {
     padding-left: 17px;
     font-size: 24px;
     padding-top: 10px;
+    font-family: 'RalewaySemiBold';
 }
 
 .rowhouse {
