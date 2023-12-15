@@ -1,6 +1,7 @@
 .thinking1 {
     width: 310px;
     height: 310px;
+    padding-bottom: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -9,12 +10,12 @@
 .floor {
     width: 310px;
     height: 310px;
+    padding-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
-    
 }
+
 .rowmodel {
     width: 340px;
     height: 320px;
@@ -43,6 +44,7 @@ p {
 .persona {
     width: 370px;
     height: 277px;
+    padding-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,11 +53,10 @@ p {
 .mobilewireframe {
     width: 370px;
     height: 784px;
+    padding-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
-    
 }
 .mobile {
     width: 370px;
@@ -63,7 +64,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
 }
 
 .desktop {
