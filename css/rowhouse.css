@@ -40,42 +40,40 @@ p {
     font-family: 'InterLight';
 }
 
-.footer {
-    background-color: #96B9DA;
-    font-size: 20px;
-    font-weight: 900;
-    display: flex;
-    width: 100%;
-    margin-bottom: 0;
-    padding: 0;
+.persona {
+    width: 370px;
+    height: 277px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body{
-    margin: 0px;
+.mobilewireframe {
+    width: 370px;
+    height: 784px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    
+}
+.mobile {
+    width: 370px;
+    height: 803px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
 }
 
-.text {
-    float:left;
-    width: 50%;
-    padding-left: 0;
-    margin-left: -15px;
+.desktop {
+    width: 370px;
+    height: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
 }
 
-.test {
-    text-align: right;
-    width: 50%;
-    padding-right: 10px;
-    padding-top: 19px;
-}
 
-.test a,
-.test button {
-    margin-left: 10px; 
-}
 
-.test button {
-    position: relative;
-    top: -2px;
-    background-color: black;
-    color: white;
-}
