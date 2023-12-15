@@ -1,7 +1,14 @@
 body {
     font-family: 'RalewaySemiBold';
   }
-  
+
+  /* .backgroundImage {
+    background-image: url("../images/background-image.jpg");
+    background-size: 110%;
+    background-color: #c4e5fa;
+    background-blend-mode: lighten;
+  }*/
+
   .overlay {
     height: 0%;
     width: 100%;
@@ -9,7 +16,10 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #d4e9fc;
+    background-image: url("../images/background-image.jpg");
+    background-color: #8ecfe5;
+    background-position: 10%;
+    background-blend-mode: lighten;
     overflow-y: hidden;
     transition: 0.5s;
   }
