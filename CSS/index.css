@@ -7,7 +7,10 @@ body {
     src: url('../fonts/Inter-Bold.ttf');
 }
 
-
+@font-face {
+    font-family: 'RalewaySemiBold';
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
 
 .header {
     line-height: 2; /*fix this; there's no signifer to the number*/
@@ -28,6 +31,7 @@ div.logo {
     padding-right: 20px;
     font-weight: 600;
     font-size: 28px;
+    font-family: 'RalewaySemiBold';
 
 }
 
