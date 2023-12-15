@@ -1,5 +1,7 @@
 body {
     background: radial-gradient(ellipse at center, #f2f9fe 8%,#f2f9fe 46%, #c6e4f4 74%);
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -38,6 +40,7 @@ body {
     font-family: 'InterBold';
 
 }
+
 .backgroundImage {
     background-image: url("../images/background-image.jpg");
     background-size: 110%;
