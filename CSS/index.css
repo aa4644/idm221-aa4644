@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(circle at left bottom, #ffffff , #cce3ff)
+    background: radial-gradient(ellipse at center, rgba(242,249,254,1) 8%,rgba(242,249,254,1) 46%,rgba(214,240,253,1) 74%);
 }
 
 .header {
