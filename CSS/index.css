@@ -7,6 +7,7 @@ body {
     src: url('../fonts/Inter-Bold.ttf');
 }
 
+
 @font-face {
     font-family: 'RalewaySemiBold';
     src: url('../fonts/Raleway-SemiBold.ttf');
@@ -27,17 +28,17 @@ div.logo {
 .intro {
     padding-top: 4px;
     padding-bottom: 0px;
-    padding-left: 38px;
-    padding-right: 20px;
     font-weight: 600;
     font-size: 28px;
     font-family: 'RalewaySemiBold';
-
+    justify-content: center;
+    display: flex;
 }
 
 h2 {
-    padding-left: 5px;
+    padding-left: 17px;
     font-size: 24px;
+    padding-top: 10px;
 }
 
 .rowhouse {
@@ -57,7 +58,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
     
 

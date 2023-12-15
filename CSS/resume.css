@@ -50,7 +50,6 @@ li {
     background-color: #b2c5dd;
     border-color: blue; /*change color later*/
     font-size: 14px;
-    margin-left: 135px;
     margin-bottom: 30px;
     width: 90px;
     height: 30px; 
@@ -59,7 +58,7 @@ li {
 .container {
     margin-top: -35px;
     margin-bottom: 20px;
-
+    text-align: center;
 }
 
 
