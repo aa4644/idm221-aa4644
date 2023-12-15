@@ -24,20 +24,58 @@
     padding-bottom: 40px;
 }
 
-h2 {
-    padding-left: 4px;
-    padding-top: 10px;
-}
-
 h3 {
-    padding-left: 3px;
+    padding-left: 30px;
     margin-bottom: -10px;
+    font-size: 20px;
+    font-family: 'RalewaySemiBold';
 }
 
 p {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
     line-height: 20px;
     letter-spacing: 1px;
     font-size: 16px;
+    font-family: 'InterLight';
+}
+
+.footer {
+    background-color: #96B9DA;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+.text {
+    float:left;
+    width: 50%;
+    padding-left: 0;
+    margin-left: -15px;
+}
+
+.test {
+    text-align: right;
+    width: 50%;
+    padding-right: 10px;
+    padding-top: 19px;
+}
+
+.test a,
+.test button {
+    margin-left: 10px; 
+}
+
+.test button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
 }
