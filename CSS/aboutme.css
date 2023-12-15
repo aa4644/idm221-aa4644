@@ -1,9 +1,9 @@
 .aboutme-info {
-  font-size: 16px;
-  font-family: 'InterRegular';
-  line-height: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+    font-size: 16px;
+    font-family: 'InterRegular';
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .aboutme-footer {
@@ -22,22 +22,22 @@
     width: 50%;
     padding-left: 10px;
   }
-  .aboutme-test {
+  .aboutme-icons {
     text-align: right;
     width: 50%;
     padding-right: 10px;
     padding-top: 18px;
   }
 
-  .aboutme-test a,
-.aboutme-test button {
+  .aboutme-icons a,
+.aboutme-icons button {
   margin-left: 10px;
 }
 
-.aboutme-test button {
-  position: relative;
-  top: -2px;
-  background-color: black;
-  color: white;
+.aboutme-icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
   }
 

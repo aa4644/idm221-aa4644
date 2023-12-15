@@ -10,30 +10,30 @@
 }
 
 body{
-  margin: 0px;
+    margin: 0px;
 }
 
 .text {
-  float:left;
-  width: 65%;
-  padding-left: 10px;
+    float:left;
+    width: 65%;
+    padding-left: 10px;
 }
 
-.test {
-  text-align: right;
-  width: 35%;
-  padding-right: 10px;
-  padding-top: 19px;
+.icons {
+    text-align: right;
+    width: 35%;
+    padding-right: 10px;
+    padding-top: 19px;
 }
 
-.test a,
-.test button {
-    margin-left: 10px; /* Add space around each icon */
+.icons a,
+.icons button {
+    margin-left: 10px; /* to add space around each icon */
 }
 
-.test button {
-  position: relative;
-  top: -2px;
-  background-color: black;
-  color: white;
+.icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
 }

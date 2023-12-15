@@ -2,13 +2,6 @@ body {
     font-family: 'RalewaySemiBold';
   }
 
-  /* .backgroundImage {
-    background-image: url("../images/background-image.jpg");
-    background-size: 110%;
-    background-color: #c4e5fa;
-    background-blend-mode: lighten;
-  }*/
-
   .overlay {
     height: 0%;
     width: 100%;
@@ -45,7 +38,7 @@ body {
     color: #f1f1f1;
   } */
   
-  /* Cloe menu bar position */   
+  /* Close menu bar position */   
   .overlay .closebtn {
     position: absolute;
     top: -20px;
@@ -60,11 +53,10 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
-    }
-
-/* Menu bar position */    
+    }   
   }
   
+  /* Menu bar position */ 
   div.fixed{
     position: absolute;  /* put fixed if want to make menu bar move with user */
     top: 30px;
