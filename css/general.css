@@ -37,7 +37,7 @@ body {
 /*header logo*/
 .header {
     padding-left: 7px;
-    font-family: 'InterBold';
+    font-family: 'InterBold', sans-serif;
 
 }
 
