@@ -22,6 +22,7 @@ ul {
     margin-top: -10px;
     font-size: 16px;
     font-family: 'InterRegular';
+    list-style-type: circle;
 }
 
 li {
@@ -32,7 +33,7 @@ li {
     border-radius: 10px;
     text-align: center;
     font-family: 'InterRegular';
-    background-color: #b0d2f2;
+    background-color: #8ec9e6;
     border: none;
     font-size: 15px;
     margin-bottom: 30px;
