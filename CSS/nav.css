@@ -1,6 +1,5 @@
-
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'RalewaySemiBold';
   }
   
   .overlay {
@@ -10,8 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255); /*overlay BG */
+    background-color: #d4e9fc;
     overflow-y: hidden;
     transition: 0.5s;
   }
@@ -21,11 +19,11 @@ body {
     top: 20%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
   }
   
   .overlay a {
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
     font-size: 36px;
     color: #000000;
@@ -33,14 +31,15 @@ body {
     transition: 0.3s;
   }
   
-  .overlay a:hover, .overlay a:focus {
+  /* .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-  }
+  } */
   
+  /* Cloe menu bar position */   
   .overlay .closebtn {
     position: absolute;
-    top: 0px;
-    right: 20px;
+    top: -20px;
+    right: 14px;
     font-size: 60px;
   }
   
@@ -60,10 +59,7 @@ body {
     position: absolute;  /* put fixed if want to make menu bar move with user */
     top: 30px;
     right: 45px;
-    
-    
   }
-
 
 /* Link colors */
   a:link {
@@ -78,17 +74,6 @@ body {
     text-decoration: none;
   }
   
-  a:hover {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: underline;
-  }
 
 div.margin {
     margin-left: 10px;
