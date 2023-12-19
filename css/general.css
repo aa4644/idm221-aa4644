@@ -1,3 +1,4 @@
+/*background color*/
 body {
     background: radial-gradient(ellipse at center, #f2f9fe 8%,#f2f9fe 46%, #c6e4f4 74%);
     width: 100%;
@@ -44,141 +45,8 @@ body {
     src: url('../fonts/Raleway-Bold.ttf');
 }
 
-/*header logo*/
-.header {
-    padding-left: 7px;
-    font-family: 'InterBold', sans-serif;
-}
 
-/*header logo*/
-div.logo {
-    padding-top: 11px;
-    margin-left: 25px;
-    margin-right: 10px;
-}
-
-/*index page introduction*/
-h5 {
-    padding-top: 4px;
-    padding-bottom: 0px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 28px;
-    font-family: 'RalewaySemiBold', sans-serif;
-    justify-content: center;
-    display: flex;
-}
-
-/*project names*/
-h2 {
-    padding-left: 26px;
-    font-size: 24px;
-    padding-top: 10px;
-    font-family: 'RalewaySemiBold', sans-serif;
-}
-
-/*rowhouse model image*/
-.rowhouse {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -10px;
-    padding-bottom: 10px;
-}
-
-/*redesign image*/
-.diner {
-    width: 80%;
-    /*width: 340px;
-    height: 340px;*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -10px;
-    padding-bottom: 30px;
-}
-
-.footer {
-    background-color: #8ec9e6;
-    font-family: 'RalewayBold', sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    display: flex;
-    width: 100%;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-
-.text {
-    float:left;
-    width: 65%;
-    padding-left: 10px;
-}
-
-.icons {
-    text-align: right;
-    width: 35%;
-    padding-right: 10px;
-    padding-top: 19px;
-}
-
-.icons a,
-.icons button {
-    margin-left: 10px; /* to add space around each icon */
-}
-
-.icons button {
-    position: relative;
-    top: -2px;
-    background-color: black;
-    color: white;
-}
-
-.aboutme-info {
-    font-size: 16px;
-    font-family: 'InterRegular', sans-serif;
-    line-height: 60px;
-}
-
-.aboutme-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #8ec9e6;
-    font-family: 'RalewayBold', sans-serif;
-    font-size: 20px;
-    display: flex;
-}
-
-.aboutme-text {
-    float:left;
-    width: 50%;
-    padding-left: 10px;
-}
-
-.aboutme-icons {
-    text-align: right;
-    width: 50%;
-    padding-right: 10px;
-    padding-top: 18px;
-}
-
-.aboutme-icons a,
-.aboutme-icons button {
-margin-left: 10px;
-}
-
-.aboutme-icons button {
-    position: relative;
-    top: -2px;
-    background-color: black;
-    color: white;
-}
-
-
+/*menu starts*/
 .overlay {
     height: 0%;
     width: 100%;
@@ -256,6 +124,134 @@ div.margin {
     margin-left: 10px;
     margin-right: 10px;
 }
+/*menu ends*/
+
+
+/*header logo*/
+.header {
+    padding-left: 2px;
+    font-family: 'InterBold', sans-serif;
+}
+
+/*header logo*/
+div.logo {
+    padding-top: 11px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+
+h2 {
+    padding-left: 26px;
+    font-size: 24px;
+    padding-top: 10px;
+    font-family: 'RalewaySemiBold', sans-serif;
+}
+
+
+h3 {
+    padding-left: 26px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-family: 'RalewaySemiBold', sans-serif;
+}
+
+
+h4 {
+    padding-left: 26px;
+    font-size: 18px;
+    margin-bottom: -8px;
+    font-family: 'RalewayBold', sans-serif;
+}
+
+
+h5 {
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'RalewaySemiBold', sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 0px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'InterRegular', sans-serif;
+}
+
+
+/*rowhouse model image on index*/
+.rowhouse {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+/*redesign image on index*/
+.diner {
+    width: 80%;
+    /*width: 340px;
+    height: 340px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+
+.aboutme-info {
+    font-size: 16px;
+    font-family: 'InterRegular', sans-serif;
+    line-height: 60px;
+}
+
+.aboutme-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8ec9e6;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.aboutme-text {
+    float:left;
+    width: 50%;
+    padding-left: 26px;
+}
+
+.aboutme-icons {
+    text-align: right;
+    width: 50%;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 4px;
+}
+
+.aboutme-icons a,
+.aboutme-icons button {
+margin-left: 10px;
+}
+
+.aboutme-icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
+}
+
 /*rowhouse process photos*/
 .thinking1 {
     width: 80%;
@@ -287,25 +283,6 @@ div.margin {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
-}
-
-/*headings*/
-h3 {
-    margin-bottom: -10px;
-    font-size: 20px;
-    font-family: 'RalewaySemiBold', sans-serif;
-    padding-left: 26px;
-}
-
-/*body paragraphs*/
-p {
-    line-height: 25px;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-family: 'InterRegular', sans-serif;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top: 5px;
 }
 
 /*user persona image*/
@@ -351,19 +328,6 @@ p {
     margin-right: auto;
     padding-bottom: 40px;
 }
-/*section spacing*/
-
-
-/*headings*/
-h4 {
-    font-size: 18px;
-    font-family: 'RalewayBold', sans-serif;
-    padding-left: 26px;
-
-    margin-bottom: -10px;
-}
-
-
 
 /*resume list*/
 ul {
@@ -379,7 +343,7 @@ li {
     margin-bottom: 5px;
 }
 
-/*pdf button*/
+/*pdf button starts*/
 .pdf-button {
     display: inline-block;
     border-radius: 10px;
@@ -399,3 +363,43 @@ li {
     margin-bottom: 20px;
     text-align: center;
 }
+/*pdf button ends*/
+
+/*footer starts*/
+.footer {
+    background-color: #8ec9e6;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.text {
+    float:left;
+    width: 65%;
+    padding-left: 26px;
+}
+
+.icons {
+    text-align: right;
+    width: 35%;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 4px;
+}
+
+.icons a,
+.icons button {
+    margin-left: 10px; /* to add space around each icon */
+}
+
+.icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
+}
+/*footer ends here*/
