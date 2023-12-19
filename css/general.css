@@ -140,7 +140,6 @@ h2 {
     font-size: 16px;
     font-family: 'InterRegular', sans-serif;
     line-height: 60px;
-
 }
 
 .aboutme-footer {
@@ -300,8 +299,7 @@ h3 {
 
 /*body paragraphs*/
 p {
-
-    line-height: 20px;
+    line-height: 25px;
     letter-spacing: 1px;
     font-size: 16px;
     font-family: 'InterRegular', sans-serif;
