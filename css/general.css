@@ -2,6 +2,16 @@ body {
     background: radial-gradient(ellipse at center, #f2f9fe 8%,#f2f9fe 46%, #c6e4f4 74%);
     width: 100%;
     height: 100%;
+    margin: 0px;
+    font-family: 'RalewaySemiBold', sans-serif;
+}
+
+/*header background image*/
+.backgroundImage {
+    background-image: url("../images/background-image.jpg");
+    background-size: 110%;
+    background-color: #c4e5fa;
+    background-blend-mode: lighten;
 }
 
 @font-face {
@@ -38,7 +48,6 @@ body {
 .header {
     padding-left: 7px;
     font-family: 'InterBold', sans-serif;
-
 }
 
 /*header logo*/
@@ -48,18 +57,11 @@ div.logo {
     margin-right: 10px;
 }
 
-/*header background image*/
-.backgroundImage {
-    background-image: url("../images/background-image.jpg");
-    background-size: 110%;
-    background-color: #c4e5fa;
-    background-blend-mode: lighten;
-}
-
 /*index page introduction*/
-.index-intro {
+h5 {
     padding-top: 4px;
     padding-bottom: 0px;
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 28px;
     font-family: 'RalewaySemiBold', sans-serif;
@@ -69,7 +71,7 @@ div.logo {
 
 /*project names*/
 h2 {
-    padding-left: 31px;
+    padding-left: 26px;
     font-size: 24px;
     padding-top: 10px;
     font-family: 'RalewaySemiBold', sans-serif;
@@ -97,3 +99,305 @@ h2 {
     padding-bottom: 30px;
 }
 
+.footer {
+    background-color: #8ec9e6;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+.text {
+    float:left;
+    width: 65%;
+    padding-left: 10px;
+}
+
+.icons {
+    text-align: right;
+    width: 35%;
+    padding-right: 10px;
+    padding-top: 19px;
+}
+
+.icons a,
+.icons button {
+    margin-left: 10px; /* to add space around each icon */
+}
+
+.icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
+}
+
+.aboutme-info {
+    font-size: 16px;
+    font-family: 'InterRegular', sans-serif;
+    line-height: 60px;
+
+}
+
+.aboutme-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8ec9e6;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.aboutme-text {
+    float:left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.aboutme-icons {
+    text-align: right;
+    width: 50%;
+    padding-right: 10px;
+    padding-top: 18px;
+}
+
+.aboutme-icons a,
+.aboutme-icons button {
+margin-left: 10px;
+}
+
+.aboutme-icons button {
+    position: relative;
+    top: -2px;
+    background-color: black;
+    color: white;
+}
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("../images/background-image.jpg");
+    background-color: #8ecfe5;
+    background-position: 10%;
+    background-blend-mode: lighten;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+/* .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  } */
+
+  /* Close menu bar position */   
+.overlay .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 14px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }   
+}
+
+/* Menu bar position */ 
+div.fixed{
+    position: absolute;  /* put fixed if want to make menu bar move with user */
+    top: 30px;
+    right: 45px;
+}
+
+/* Link colors */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*rowhouse process photos*/
+.thinking1 {
+    width: 80%;
+    /*width: 310px;
+    height: 310px;*/
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*floor plan photo*/
+.floor {
+    width: 80%;
+    /*width: 310px;
+    height: 310px;*/
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*rowhouse model photo*/
+.rowmodel {
+    width: 80%;
+    /*width: 340px;
+    height: 320px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/*headings*/
+h3 {
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: 'RalewaySemiBold', sans-serif;
+    padding-left: 26px;
+}
+
+/*body paragraphs*/
+p {
+
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'InterRegular', sans-serif;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 5px;
+}
+
+/*user persona image*/
+.persona {
+    width: 80%;
+    /*width: 370px;
+    height: 277px;*/
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*mobile wireframe image*/
+.mobilewireframe {
+    width: 80%;
+    /*width: 370px;
+    height: 784px;*/
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*mobile final product image*/
+.mobile {
+    width: 80%;
+    /*width: 370px;
+    height: 803px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+/*desktop final product image*/
+.desktop {
+    width: 80%;
+    /*width: 370px;
+    height: 195px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+/*section spacing*/
+
+
+/*headings*/
+h4 {
+    font-size: 18px;
+    font-family: 'RalewayBold', sans-serif;
+    padding-left: 26px;
+
+    margin-bottom: -10px;
+}
+
+
+
+/*resume list*/
+ul {
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: 'InterRegular', sans-serif;
+    list-style-type: circle;
+    padding-left: 50px;
+    padding-right: 26px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/*pdf button*/
+.pdf-button {
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'InterRegular', sans-serif;
+    background-color: #8ec9e6;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 40px; 
+    line-height: 40px;
+}
+
+.container {
+    margin-top: -35px;
+    margin-bottom: 20px;
+    text-align: center;
+}

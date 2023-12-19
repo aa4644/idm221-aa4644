@@ -1,37 +1,31 @@
-/*rowhouse process photos*/
+/*rowhouse process photos
 .thinking1 {
     width: 80%;
-    /*width: 310px;
-    height: 310px;*/
     padding-bottom: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*floor plan photo*/
+/*floor plan photo
 .floor {
     width: 80%;
-    /*width: 310px;
-    height: 310px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*rowhouse model photo*/
+/*rowhouse model photo
 .rowmodel {
     width: 80%;
-    /*width: 340px;
-    height: 320px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
 }
 
-/*headings*/
+/*headings
 h3 {
     padding-left: 32px;
     margin-bottom: -10px;
@@ -39,7 +33,7 @@ h3 {
     font-family: 'RalewaySemiBold', sans-serif;
 }
 
-/*body paragraphs*/
+/*body paragraphs
 p {
     padding-left: 32px;
     padding-right: 32px;
@@ -49,44 +43,36 @@ p {
     font-family: 'InterRegular', sans-serif;
 }
 
-/*user persona image*/
+/*user persona image
 .persona {
     width: 80%;
-    /*width: 370px;
-    height: 277px;*/
     padding-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*mobile wireframe image*/
+/*mobile wireframe image
 .mobilewireframe {
     width: 80%;
-    /*width: 370px;
-    height: 784px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*mobile final product image*/
+/*mobile final product image
 .mobile {
     width: 80%;
-    /*width: 370px;
-    height: 803px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 15px;
 }
 
-/*desktop final product image*/
+/*desktop final product image
 .desktop {
     width: 80%;
-    /*width: 370px;
-    height: 195px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;

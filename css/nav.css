@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'RalewaySemiBold', sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
     color: #f1f1f1;
   } */
   
-  /* Close menu bar position */   
+  /* Close menu bar position  
   .overlay .closebtn {
     position: absolute;
     top: -20px;
@@ -56,14 +56,14 @@ body {
     }   
   }
   
-  /* Menu bar position */ 
+  /* Menu bar position 
   div.fixed{
-    position: absolute;  /* put fixed if want to make menu bar move with user */
+    position: absolute;  
     top: 30px;
     right: 45px;
   }
 
-/* Link colors */
+/* Link colors 
   a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;

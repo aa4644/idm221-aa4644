@@ -1,3 +1,4 @@
+/*
 .footer {
     background-color: #8ec9e6;
     font-family: 'RalewayBold', sans-serif;
@@ -31,6 +32,7 @@ body{
     margin-left: 10px; /* to add space around each icon */
 }
 
+/*
 .icons button {
     position: relative;
     top: -2px;

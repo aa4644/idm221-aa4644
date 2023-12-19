@@ -1,4 +1,4 @@
-/*section spacing*/
+/*section spacing
 .para {
     padding-left: 26px;
     padding-right: 26px;
@@ -8,20 +8,20 @@
     
 }
 
-/*headings*/
+/*headings
 h4 {
     font-size: 18px;
     font-family: 'RalewayBold', sans-serif;
     margin-bottom: -10px;
 }
 
-/*body paragraphs*/
+/*body paragraphs
 p {
     font-size: 16px;
     font-family: 'InterRegular', sans-serif;
 }
 
-/*resume list*/
+/*resume list
 ul {
     margin-top: -10px;
     font-size: 16px;
@@ -33,7 +33,7 @@ li {
     margin-bottom: 5px;
 }
 
-/*pdf button*/
+/*pdf button
 .pdf-button {
     display: inline-block;
     border-radius: 10px;
