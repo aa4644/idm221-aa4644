@@ -13,26 +13,28 @@
 </head>
 
 <body>
+  <header>
   <div class = "backgroundImage"> 
+    
       <div class="logo">
         <h1><a class = "header" href="index.html">Amy Au</a></h1>
       </div>
 
       <!--menu bar-->
-      <div id="myNav" class="overlay">
+      <nav id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a href="index.html">Homepage</a>
           <a href="resume.html">Resume</a>
           <a href="aboutme.html">About Me</a>
         </div>
-      </div>
+      </nav>
 
-    <!--closing menu bar-->
-      <div class ="fixed">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-      </div>
-    <!--head section end-->
+      <nav>
+        <div class ="fixed">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+      </nav>
 
       <!--name introduction-->
       <div class="index-intro">
@@ -44,31 +46,37 @@
 
         <!--horizontal line-->
         <hr style="margin-top: 60px; margin-bottom: 30px; background-color: transparent;">
-  </div>
+    </div>
+  </header>
 
-    <!--first project-->
-    <a href="rowhouse.html">
-      <h2>Row House Design</h2>
-      <img src= "images/rowhouse-side.jpg" alt="rowhouse model" class="rowhouse">  
-    </a>
+  <main>
+    <article>
+      <!--first project-->
+      <a href="rowhouse.html">
+        <h2>Row House Design</h2>
+        <img src= "images/rowhouse-side.jpg" alt="rowhouse model" class="rowhouse">  
+      </a>
+    </article>
 
+    <article>
     <!--second project-->
     <a href="diner.html">
       <h2>Diner Re-design</h2>
       <img src="images/diner-homepage.png" alt="ram's diner homepage redesign" class="diner">
     </a>
+    </article>
+  </main>
 
-    <!--footer-->
-    <div class="footer">
-      <div class="text">
-        <p>Let's Connect!</p>
-      </div>
-      <div class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/amy-au22/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a target="_blank" href="mailto:aa4644@drexel.edu"><i class="fa fa-envelope"></i></a>
-            <button onclick ="toTop()"><i class="fas fa-arrow-up"></i> </button>
-      </div>
+  <footer class="footer">
+    <div class="text">
+      <p>Let's Connect!</p>
     </div>
+    <div class="icons">
+      <a target="_blank" href="https://www.linkedin.com/in/amy-au22/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a target="_blank" href="mailto:aa4644@drexel.edu"><i class="fa fa-envelope"></i></a>
+      <button onclick ="toTop()"><i class="fas fa-arrow-up"></i> </button>
+    </div>
+  </footer>
 
-  </body>
+</body>
 </html>
