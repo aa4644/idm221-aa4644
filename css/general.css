@@ -83,7 +83,7 @@ body {
     color: #f1f1f1;
   } */
 
-  /* Close menu bar position */   
+/* Close menu bar position */   
 .overlay .closebtn {
     position: absolute;
     top: -20px;
@@ -266,8 +266,6 @@ margin-left: 10px;
 /*floor plan photo*/
 .floor {
     width: 80%;
-    /*width: 310px;
-    height: 310px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -277,8 +275,6 @@ margin-left: 10px;
 /*rowhouse model photo*/
 .rowmodel {
     width: 80%;
-    /*width: 340px;
-    height: 320px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -288,8 +284,6 @@ margin-left: 10px;
 /*user persona image*/
 .persona {
     width: 80%;
-    /*width: 370px;
-    height: 277px;*/
     padding-bottom: 10px;
     display: block;
     margin-left: auto;
@@ -299,8 +293,6 @@ margin-left: 10px;
 /*mobile wireframe image*/
 .mobilewireframe {
     width: 80%;
-    /*width: 370px;
-    height: 784px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -310,8 +302,6 @@ margin-left: 10px;
 /*mobile final product image*/
 .mobile {
     width: 80%;
-    /*width: 370px;
-    height: 803px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -321,8 +311,6 @@ margin-left: 10px;
 /*desktop final product image*/
 .desktop {
     width: 80%;
-    /*width: 370px;
-    height: 195px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -393,7 +381,7 @@ li {
 
 .icons a,
 .icons button {
-    margin-left: 10px; /* to add space around each icon */
+    margin-left: 10px; /*to add space around each ico*/
 }
 
 .icons button {
