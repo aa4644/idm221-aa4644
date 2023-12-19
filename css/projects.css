@@ -1,7 +1,8 @@
 /*rowhouse process photos*/
 .thinking1 {
-    width: 310px;
-    height: 310px;
+    width: 80%;
+    /*width: 310px;
+    height: 310px;*/
     padding-bottom: 15px;
     display: block;
     margin-left: auto;
@@ -10,8 +11,9 @@
 
 /*floor plan photo*/
 .floor {
-    width: 310px;
-    height: 310px;
+    width: 80%;
+    /*width: 310px;
+    height: 310px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -20,8 +22,9 @@
 
 /*rowhouse model photo*/
 .rowmodel {
-    width: 340px;
-    height: 320px;
+    width: 80%;
+    /*width: 340px;
+    height: 320px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,8 +51,9 @@ p {
 
 /*user persona image*/
 .persona {
-    width: 370px;
-    height: 277px;
+    width: 80%;
+    /*width: 370px;
+    height: 277px;*/
     padding-bottom: 10px;
     display: block;
     margin-left: auto;
@@ -58,8 +62,9 @@ p {
 
 /*mobile wireframe image*/
 .mobilewireframe {
-    width: 370px;
-    height: 784px;
+    width: 80%;
+    /*width: 370px;
+    height: 784px;*/
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -68,8 +73,9 @@ p {
 
 /*mobile final product image*/
 .mobile {
-    width: 370px;
-    height: 803px;
+    width: 80%;
+    /*width: 370px;
+    height: 803px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -78,8 +84,9 @@ p {
 
 /*desktop final product image*/
 .desktop {
-    width: 370px;
-    height: 195px;
+    width: 80%;
+    /*width: 370px;
+    height: 195px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;

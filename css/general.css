@@ -78,8 +78,7 @@ h2 {
 
 /*rowhouse model image*/
 .rowhouse {
-    width: 340px;
-    height: 255px;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -89,13 +88,14 @@ h2 {
 
 /*redesign image*/
 .diner {
-    width: 340px;
-    height: 340px;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
     padding-bottom: 30px;
 }
+
+
 
 
