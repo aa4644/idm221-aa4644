@@ -87,7 +87,7 @@ body {
 .overlay .closebtn {
     position: absolute;
     top: -20px;
-    right: 4px;
+    right: -6px;
     font-size: 60px;
 }
 
@@ -105,7 +105,7 @@ body {
 div.fixed{
     position: absolute;  /* put fixed if want to make menu bar move with user */
     top: 30px;
-    right: 35px;
+    right: 25px;
 }
 
 /* Link colors */
@@ -189,7 +189,7 @@ p {
 
 /*rowhouse model image on index*/
 .rowhouse {
-    width: 80%;
+    width: 87%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -199,9 +199,7 @@ p {
 
 /*redesign image on index*/
 .diner {
-    width: 80%;
-    /*width: 340px;
-    height: 340px;*/
+    width: 87%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -253,9 +251,7 @@ margin-left: 10px;
 
 /*rowhouse process photos*/
 .thinking1 {
-    width: 80%;
-    /*width: 310px;
-    height: 310px;*/
+    width: 87%;
     padding-bottom: 15px;
     display: block;
     margin-left: auto;
@@ -264,7 +260,7 @@ margin-left: 10px;
 
 /*floor plan photo*/
 .floor {
-    width: 80%;
+    width: 87%;
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -273,7 +269,7 @@ margin-left: 10px;
 
 /*rowhouse model photo*/
 .rowmodel {
-    width: 80%;
+    width: 87%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -282,7 +278,7 @@ margin-left: 10px;
 
 /*user persona image*/
 .persona {
-    width: 80%;
+    width: 87%;
     padding-bottom: 10px;
     display: block;
     margin-left: auto;
@@ -291,7 +287,7 @@ margin-left: 10px;
 
 /*mobile wireframe image*/
 .mobilewireframe {
-    width: 80%;
+    width: 87%;
     padding-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -300,7 +296,7 @@ margin-left: 10px;
 
 /*mobile final product image*/
 .mobile {
-    width: 80%;
+    width: 87%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -309,7 +305,7 @@ margin-left: 10px;
 
 /*desktop final product image*/
 .desktop {
-    width: 80%;
+    width: 87%;
     display: block;
     margin-left: auto;
     margin-right: auto;
