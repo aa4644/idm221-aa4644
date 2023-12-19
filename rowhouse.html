@@ -14,57 +14,67 @@
 </head>
 
 <body>
-    <div class="logo">
-        <h1><a class = "header" href="index.html">Amy Au</a></h1>
-    </div>
-
-    <!--menu bar-->
-    <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-        <a href="index.html">Homepage</a>
-        <a href="resume.html">Resume</a>
-        <a href="aboutme.html">About Me</a>
-        <!-- might not include <a href="contact.html">Contact</a> -->
+    <header>
+        <div class="logo">
+            <h1><a class = "header" href="index.html">Amy Au</a></h1>
         </div>
-    </div>
 
-    <!--closing menu bar-->
-    <div class ="fixed">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    </div>
+        <!--menu bar-->
+        <nav id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+            <a href="index.html">Homepage</a>
+            <a href="resume.html">Resume</a>
+            <a href="aboutme.html">About Me</a>
+            </div>
+        </nav>
 
-    <!--project title-->
-    <h2>Row House Design</h2>
+        <nav>
+            <div class ="fixed">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+    </header>
 
-    <!--part 1-->
-    <h3>The Goal and Thinking Process</h3>
-    <p>The goal of the project was to create a restaurant within Lancaster Avenue, PA where the first floor was the dining and the floors above were for apartments.</p>
-    <p>Coming into the project, I mapped out various simple diagrammatic layouts of how the restaurant would be with the idea that the bigger the bubble, the more space it would need. Furthermore, I dived into creating an axonometric diagram placing the importance and sizes of each element.</p>
-    <img src="images/rowhouse-thinkingprocess1.jpg" alt="venn diagram of flow" class="thinking1"> 
-    <img src="images/rowhouse-thinkingprocess2.jpg" alt="isometric drawing replicating layout" loading="lazy" class="thinking1"> 
+    <main>
+        <!--project title-->
+        <h2>Row House Design</h2>
 
-    <!--part 2-->
-    <h3>Getting to the Floor Plans</h3>
-    <p>From the initial thinking process, I created many versions of floor plans that could be the final. I visited many different opinions and took into account each comment that was made. Eventually, the floor plan was finalized with the intention of the customer’s experience.</p>
-    <img src="images/rowhouse-floorplan.jpg" alt="rowhouse floorplan" loading="lazy" class="floor"> 
+        <section>
+            <!--part 1-->
+            <h3>The Goal and Thinking Process</h3>
+            <p>The goal of the project was to create a restaurant within Lancaster Avenue, PA where the first floor was the dining and the floors above were for apartments.</p>
+            <p>Coming into the project, I mapped out various simple diagrammatic layouts of how the restaurant would be with the idea that the bigger the bubble, the more space it would need. Furthermore, I dived into creating an axonometric diagram placing the importance and sizes of each element.</p>
+            <img src="images/rowhouse-thinkingprocess1.jpg" alt="venn diagram of flow" class="thinking1"> 
+            <img src="images/rowhouse-thinkingprocess2.jpg" alt="isometric drawing replicating layout" loading="lazy" class="thinking1"> 
+        </section>
 
-    <!--part 3-->
-    <h3>Final Model Design</h3>
-    <p>I went through three versions of the model that were each built off of one another. With each floor plan version, came a 3D model to truly see how one would experience the restaurant. The final model was created alongside the floor plan which thought of the consumer’s experience from the beginning of their dining to the very end.</p>
-    <img src="images/rowhouse-model.jpg" alt="rowhouse final model" loading="lazy" class="rowmodel"> 
+        <section>
+            <!--part 2-->
+            <h3>Getting to the Floor Plans</h3>
+            <p>From the initial thinking process, I created many versions of floor plans that could be the final. I visited many different opinions and took into account each comment that was made. Eventually, the floor plan was finalized with the intention of the customer’s experience.</p>
+            <img src="images/rowhouse-floorplan.jpg" alt="rowhouse floorplan" loading="lazy" class="floor"> 
+        </section>
+
+        <section>
+            <!--part 3-->
+            <h3>Final Model Design</h3>
+            <p>I went through three versions of the model that were each built off of one another. With each floor plan version, came a 3D model to truly see how one would experience the restaurant. The final model was created alongside the floor plan which thought of the consumer’s experience from the beginning of their dining to the very end.</p>
+            <img src="images/rowhouse-model.jpg" alt="rowhouse final model" loading="lazy" class="rowmodel"> 
+        </section>
+    </main>
 
     <!--footer-->
-    <div class="footer">
+    <footer class="footer">
         <div class="text">
-        <p style="font-family: 'RalewayBold'; font-size: 20px; margin-left: -30px;">Let's Connect!</p>
+            <p style="font-family: 'RalewayBold'; font-size: 20px; margin-left: -30px;">Let's Connect!</p>
         </div>
         <div class="icons">
             <a target="_blank" href="https://www.linkedin.com/in/amy-au22/"><i class="fa-brands fa-linkedin-in"></i></a>
             <a target="_blank" href="mailto:aa4644@drexel.edu"><i class="fa fa-envelope"></i></a>
             <button onclick ="toTop()"><i class="fas fa-arrow-up"></i> </button>
         </div>
-    </div>
+    </footer>
 
 </body>
 </html>
