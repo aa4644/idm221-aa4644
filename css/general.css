@@ -180,7 +180,7 @@ p {
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 0px;
-    line-height: 25px;
+    line-height: 27px;
     letter-spacing: 1px;
     font-size: 16px;
     font-family: 'InterRegular', sans-serif;
@@ -212,7 +212,7 @@ p {
 .aboutme-info {
     font-size: 16px;
     font-family: 'InterRegular', sans-serif;
-    line-height: 60px;
+    padding-top: 10px;
 }
 
 .aboutme-footer {
