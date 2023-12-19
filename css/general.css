@@ -105,7 +105,7 @@ body {
 div.fixed{
     position: absolute;  /* put fixed if want to make menu bar move with user */
     top: 30px;
-    right: 45px;
+    right: 35px;
 }
 
 /* Link colors */
